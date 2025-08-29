@@ -82,7 +82,7 @@ func (this *pseudo) Main() {
 //line pseudo.gox:54:1
 	if len(os.Args) < 2 {
 //line pseudo.gox:55:1
-		fmt.Println("Usage: tpl-pseudo <file>")
+		fmt.Println("Usage: pseudo <file>")
 //line pseudo.gox:56:1
 		return
 	}

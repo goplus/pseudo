@@ -52,7 +52,7 @@ func chgValue(name string, chg func(oldv any) any) {
 }
 
 if len(os.Args) < 2 {
-	echo "Usage: tpl-pseudo <file>"
+	echo "Usage: pseudo <file>"
 	return
 }
 
